@@ -15,16 +15,21 @@ pipeline {
             }
         }
 
-        stage('Building a third stage after manually building the second') {
+        stage('Building a third stage') {
             steps{
                 echo 'Second try at triggering via WebHook.'
             }
         }
+        
         stage('Building a fourth stage') {
             steps{
-                echo 'Went into Jenkins configurations to llow a WebHook from GitHub after a push.'
+                echo 'Went into Jenkins configurations to allow a WebHook from GitHub after a push.'
             }
         
+        stage('Building a fifth stage') {
+            steps{
+                echo 'Went into GitHub configurations to llow a change the URL of where thr repo pushed to in Jenkins.'
+            }
 
     }
 }
