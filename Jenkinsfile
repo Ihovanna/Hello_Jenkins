@@ -20,5 +20,11 @@ pipeline {
                 echo 'Second try at triggering via WebHook.'
             }
         }
+        stage('Building a fourth stage') {
+            steps{
+                echo 'Went into Jenkins configurations to llow a WebHook from GitHub after a push.'
+            }
+        
+
     }
 }
