@@ -18,3 +18,6 @@ eleventh try!
 
 16th
 - changed webhook payload URL to include endpoint /github-webhook
+
+17th
+- removed lightweight checkout check box in Jenkins
