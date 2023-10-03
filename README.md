@@ -21,3 +21,6 @@ eleventh try!
 
 17th
 - removed lightweight checkout check box in Jenkins
+
+18th
+- builds correctly manually but I am still getting a 302 response...
