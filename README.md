@@ -12,3 +12,6 @@ eleventh try!
 
 14th
 - created new webhook
+
+15th
+- changed content type of webhook to json
