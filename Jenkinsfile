@@ -40,5 +40,10 @@ pipeline {
             steps{
                 echo 'Changed GitHub Payload URL in settings.'
             }
+
+        stage('Building a eigth stage') {
+            steps{
+                echo 'Changed URL again.'
+            }
     }
 }
