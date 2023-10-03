@@ -28,8 +28,12 @@ pipeline {
         
         stage('Building a fifth stage') {
             steps{
-                echo 'Went into GitHub configurations to llow a change the URL of where thr repo pushed to in Jenkins.'
+                echo 'Went into GitHub configurations to allow a change the URL of where thr repo pushed to in Jenkins.'
             }
 
+        stage('Building a sixth stage') {
+            steps{
+                echo 'Changed GitHub Repo SCM URL to exclude .git.'
+            }
     }
 }
