@@ -45,9 +45,16 @@ pipeline {
             }
         }
 
-        stage('Building a eigth stage') {
+        stage('Building an eigth stage') {
             steps{
                 echo 'Changed URL again.'
+            }
+        }
+
+        stage('Building a ninth stage') {
+            steps{
+                echo 'We have now built a new pipeline and a new webhook. It seemed to be properly triggering a build.' 
+                echo 'This is test 2. It should trigger build #6.'
             }
         }
     }
