@@ -35,5 +35,10 @@ pipeline {
             steps{
                 echo 'Changed GitHub Repo SCM URL to exclude .git.'
             }
+
+        stage('Building a seventh stage') {
+            steps{
+                echo 'Changed GitHub Payload URL in settings.'
+            }
     }
 }
