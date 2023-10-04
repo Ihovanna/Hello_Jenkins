@@ -24,3 +24,6 @@ eleventh try!
 
 18th
 - builds correctly manually but I am still getting a 302 response...
+
+19th build
+- testing if it works today
